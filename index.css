@@ -5,3 +5,25 @@
     box-sizing: border-box;
 
 }
+.navbar{
+    display: flex;
+    /* justify-content: center; */
+    /* align-content: center; */
+    background-color: maroon;
+    padding: 20px;
+    text-align: right;
+}
+.navbar ul{
+    display: flex;
+    /* align-content:center; */
+    color: white;
+    list-style: none;
+    font-weight: bolder;
+    text-align: right;
+}
+.navbar ul li a{
+    padding: 8px 30px;
+    color: white;
+    text-decoration: none;
+    text-align: right;
+}
