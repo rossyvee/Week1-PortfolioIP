@@ -144,5 +144,25 @@
     flex-direction: column;
     align-items: center;
     margin: 20px 0px;
-    border: solid brown 2px;
+    border: solid purple;
+}
+.input{
+    padding: 15px;
+    margin: 15px;
+    width: 40%;
+    border: white;
+    border-radius: 15px;
+}
+#msg{
+    width: 30%;
+    border: white;
+    border-radius: 10px;
+    margin: 15px;
+
+}
+#send{
+    padding: 15px;
+    width: 15%;
+    border-radius: 15px;
+    border: white;
 }
