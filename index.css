@@ -74,13 +74,32 @@
 }
 .description p{
     margin-top: 5%;
-    width: 100vh;
+    width: 100%;
     line-height: 2;
     font-size: 20px;
     border: solid purple 5px;
     border-radius: 15px;
     color: white;
-    background-color: maroon;
+    background-color: purple;
+}
+.my-projects{
+    margin-top: 12%;
+    display: block;
+}
+.my-projects h1{
+    text-align: center;
+    color: purple;
+    display: inline-block;
+}
+.my-projects img{
+    width: 32.9vw;
+    height: 40vh;
+    padding: 15px;
+    border-radius: 10%;
+    background-color: purple;
+}
+.gallery {
+    margin-top: 5%;
 
 }
 
