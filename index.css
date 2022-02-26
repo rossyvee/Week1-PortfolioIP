@@ -7,15 +7,12 @@
 }
 .navbar{
     display: flex;
-    /* justify-content: center; */
-    /* align-content: center; */
     background-color: maroon;
     padding: 20px;
     text-align: right;
 }
 .navbar ul{
     display: flex;
-    /* align-content:center; */
     color: white;
     list-style: none;
     font-weight: bolder;
@@ -27,3 +24,48 @@
     text-decoration: none;
     text-align: right;
 }
+.homepage{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(179, 175, 175);
+}
+.homepage img{
+    width: 30vw;
+    height: 80vh;
+    border-radius: 15px;
+
+}
+.caption{
+    margin-top: 15%;
+}
+.caption h1{
+    color: purple;
+}
+.btn{
+    padding: 20px;
+    width: 13vw;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 8%;
+    cursor: pointer;
+    border: none;
+    font-weight: bolder;
+}
+.homepage span{
+    margin-top: 10%;
+}
+.About{
+    margin-top: 5%;
+}
+.About h1{
+    text-align: center;
+    color: purple;
+}
+.description{
+    display: flex;
+    column-gap: 60px;
+    float: left;
+}
+
+
