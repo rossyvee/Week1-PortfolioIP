@@ -56,7 +56,7 @@
     margin-top: 10%;
 }
 .About{
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .About h1{
     text-align: center;
@@ -67,5 +67,20 @@
     column-gap: 60px;
     float: left;
 }
+.description img{
+    width: 30vw;
+    height: 45vh;
+    border-radius: 15px;
+}
+.description p{
+    margin-top: 5%;
+    width: 100vh;
+    line-height: 2;
+    font-size: 20px;
+    border: solid purple 5px;
+    border-radius: 15px;
+    color: white;
+    background-color: maroon;
 
+}
 
