@@ -101,4 +101,27 @@
 .gallery {
     margin-top: 5%;
 }
-
+.App{
+    width: 25vw;
+    border: solid purple 3px;
+    border-radius: 15px;
+}
+.App p{
+    line-height: 4;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    border-radius: 15px;
+}
+.App h1{
+    text-align: center;
+}
+.my-services{
+    margin-top: 5%;
+}
+.my-services h1{
+    text-align: center;
+    color: purple;
+}
