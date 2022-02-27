@@ -1,6 +1,6 @@
 Portfolio
 ##### ROSELINE AKINYI
-### A Description of a Landing Page Portfolio Website.
+- A Description of a Landing Page Portfolio Website.
 ## Table of Content
 + [Description](#description)
 + [Installation Requirement]( Requisites)
@@ -9,7 +9,8 @@ Portfolio
 + [Reference](#reference)
 + [Licence](#licence)
 + [Authors Info](#aut)
-##Description
+
+## Description
 The aim of this project is to create a landing page for a Portfolio Website  using HTML and CSS concepts. The project ensures best user experience by ensuring that
 it displays its contents on different browsers and devices. The project is primarly designed for desktops.
 ![Desktop](./images/Desktop-Rendition)  This is the desktop rendition.
