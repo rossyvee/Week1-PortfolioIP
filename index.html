@@ -6,85 +6,64 @@
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Roseline Akinyi">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rose Akinyi Portfolio</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Roseline Akinyi web profile</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="css/layouts.css">
 </head>
+
+
 <body>
-    <nav class="navbar">
-        <ul>
-            <li> <a href="#">Home</a></li>
-            <li> <a href="#about-me">About Me</a></li>
-            <li><a href="#"> Skills</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="homepage">
-        <img src="./images/Roseline.jpg" alt="MyImage">
-        <div class="caption">  
-     <h1>I AM QUEEN<br><span>SOFTWARE DEVELOPER</span></span></h1>
-        <button class="btn">View My Profile</button>
-        </div>  
-    </div>
-    <div class="About">
-        <h1>ABOUT QUEEN</h1>
-        <div class="description">
-        <img src="./images/Roseline.jpg" alt="MyImage">
-        <p id="about-me">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, itaque assumenda error recusandae obcaecati inventore quidem eum nulla cumque iusto, natus magnam saepe numquam neque nostrum tenetur ea esse perspiciatis!
-        </p>
-        </div>
-    </div>
-    <div class="my-projects">
-        <h1>MY PROJECTS</h1>
-        <div class="gallery">
-            <img src="./images/pro1.png" alt="first project">
-            <img src="./images/pro2.png" alt="second project">
-            <img src="./images/pro3.png" alt="third project">
-            <img src="./images/pro4.png" alt="fourth project">
-            <img src="./images/pr05.png" alt="fifth project">
-            <img src="./images/pro6.png" alt="sixth project">
-        </div>
-    </div>
-    <div class="my-services">
-        <h1>MY SERVICES</h1>
-        <div class="boxes">                    
-        <div class="App">
-            <h1>Mobile App Devt</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit magni eaque odio laudantium 
-                accusamus possimus praesentium quam ab mollitia. Deserunt dolores eius atque nam error iure 
-                nihil eaque nulla voluptas recusandae? Enim eum maiores, animi iste aliquid laborum quisquam 
-                sunt!</p>
 
-        </div>
-        <div class="App">
-            <h1>Web Development</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit magni eaque odio laudantium 
-                accusamus possimus praesentium quam ab mollitia. Deserunt dolores eius atque nam error iure 
-                nihil eaque nulla voluptas recusandae? Enim eum maiores, animi iste aliquid laborum quisquam 
-                sunt!</p>
-        </div>
-        <div class="App">
-            <h1>UX Design</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit magni eaque odio laudantium 
-                accusamus possimus praesentium quam ab mollitia. Deserunt dolores eius atque nam error iure 
-                nihil eaque nulla voluptas recusandae? Enim eum maiores, animi iste aliquid laborum quisquam 
-                sunt!</p>
+    <div class="parent" id="parent">
 
+        <div class="section-one navbar">
+            <ul class="navbar-list">
+                <li><a class="navbar-list-item" href="">Home</a></li>
+                <li><a class="navbar-list-item" href="#section-two-b">About Me</a></li>
+                <li><a href="" class="navbar-list-item">Projects</a></li>
+                <li><a href="" class="navbar-list-item">Contacts</a></li>
+            </ul>
         </div>
-    </div>
-    </div>
-    </section>
-    <section id="contact">
-        <h1 class="heading">CONTACT ME</h1>
-        <form action="" class="form">
-        <input type="text" name="name" class="input" placeholder="Enter Your Name">
-        <input type="email" name="email" class="input" placeholder="Enter Your Email">
-        <textarea name="msg" id="msg" cols="40" rows="20" placeholder="Enter your message here"></textarea>
-        <input type="submit" value="SEND" id="send">
-    </form>
-</section>
 
-    
+
+
+        <div id="section-two" class="section-two">
+            <div id="section-two-a">
+                <h2 style="margin-top: 0px;"> My Profile Pic</h2>
+                <img id="my-image" src="images/Roseline.jpg" alt="Roseline Akinyi">
+            </div>
+            <div id="section-two-b">
+                <h1>About me</h1>
+                <ul>
+                    <li>An experienced Human Resource Manager</li>
+                    <li>An adventurous soul</li>
+                    <li>A Business development manager</li>
+                </ul>
+                <h2>Why Moringa School</h2>
+                <p>
+                    I need to understand the in and out of technology and switch my career to a technical recruiter.
+                </p>
+            </div>
+        </div>
+
+        <div class="section-three" id="section-three">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <div>
+                        <p><strong>Name </strong> name</p>
+                        <p><strong>Github Link</strong> link</p>
+                        <p>
+                            <img class="project-image" src="images/pro1.png" alt="">
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
 </body>
 </html>
