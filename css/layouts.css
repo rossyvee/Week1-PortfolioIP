@@ -1,0 +1,13 @@
+div.parent{
+    height: 1000px;
+    background-color: bisque;
+}
+div.navbar{
+    height: 100px;
+}
+
+div#child-2{
+    height: 200px;
+    padding: 30px;
+    background-color: chartreuse;
+}
