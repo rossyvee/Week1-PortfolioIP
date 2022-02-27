@@ -6,28 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .child-1{
-            color:white;
-            border-bottom: 1px solid #fff;
-            
-        }
 
-        ul.navbar-list{
-            display: flex;
-            list-style: none;
-        }
-
-        ul.navbar-list > li{
-            padding: 20px;
-            background-color: cadetblue;
-            width: 20%;
-            margin-top: 5px;
-            margin-bottom: 0px;
-            margin-right: 5px;
-            margin-left: 0px;
-            text-align: center;
-            border-radius: 1rem;
-        }
     </style>
     <link rel="stylesheet" href="css/layouts.css">
 </head>
@@ -37,18 +16,49 @@
 
     <div class="parent" id="parent">
 
-        <div class="child-1 navbar">
+        <div class="section-one navbar">
             <ul class="navbar-list">
-                <li>Home</li>
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Contacts</li>
+                <li><a class="navbar-list-item" href="">Home</a></li>
+                <li><a class="navbar-list-item" href="#section-two-b">About Me</a></li>
+                <li><a href="" class="navbar-list-item">Projects</a></li>
+                <li><a href="" class="navbar-list-item">Contacts</a></li>
             </ul>
         </div>
 
 
 
-        <div id="child-2" class="child-2">
+        <div id="section-two" class="section-two">
+            <div id="section-two-a">
+                <h2 style="margin-top: 0px;"> My Profile Pic</h2>
+                <img id="my-image" src="images/Roseline.jpg" alt="Roseline Akinyi">
+            </div>
+            <div id="section-two-b">
+                <h1>About me</h1>
+                <ul>
+                    <li>An experienced Human Resource Manager</li>
+                    <li>An adventurous soul</li>
+                    <li>A Business development manager</li>
+                </ul>
+                <h2>Why Moringa School</h2>
+                <p>
+                    I need to understand the in and out of technology and switch my career to a technical recruiter.
+                </p>
+            </div>
+        </div>
+
+        <div class="section-three" id="section-three">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <div>
+                        <p><strong>Name </strong> name</p>
+                        <p><strong>Github Link</strong> link</p>
+                        <p>
+                            <img class="project-image" src="images/pro1.png" alt="">
+                        </p>
+                    </div>
+                </li>
+            </ul>
         </div>
 
 
