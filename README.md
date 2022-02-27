@@ -5,7 +5,7 @@ Portfolio
 + [Description](#description)
 + [Installation Requirement]( Requisites)
 + [Technology Used](technology-used)
-+ [Live-links] (#Live links)
++ [Live links](#Live links)
 + [Reference](#reference)
 + [Licence](#licence)
 + [Authors Info](#aut)
@@ -50,5 +50,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ## Authors Info
 Slack Profile - Rose Akinyi.
+
 LinkedIn - (Roseline Akinyi: https://www.linkedin.com/in/roseline-akinyi-065875895/)
+
 Email - roseakinyi001@gmail.com
