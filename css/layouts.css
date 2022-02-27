@@ -1,5 +1,5 @@
 div.parent{
-    height: 1000px;
+    padding-bottom: 40px;
     background-color: bisque;
 }
 div.navbar{
@@ -29,7 +29,7 @@ ul.navbar-list > li{
 }
 
 div#section-two{
-    height: 300px;
+
     background-color: #efffe0;
     display: inline-flex;
     width: 100%;
